@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvnombre"
+        android:textColor="#F907F6"
+        android:text="Nombre del archico.html"
+        android:textSize="25sp"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvfecha"
+        android:textSize="20sp"
+        android:textColor="#0D07FC"
+        android:layout_alignParentRight="true"
+        android:textAlignment="center"
+        android:text="Fecha"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvruta"
+        android:textColor="#F90707"
+        android:textSize="20sp"
+        android:text="ruta"
+        android:textAlignment="center"
+        android:layout_alignBottom="@+id/tvnombre"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+
+
+</RelativeLayout>
