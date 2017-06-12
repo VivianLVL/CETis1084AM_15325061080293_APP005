@@ -24,6 +24,7 @@
         android:layout_alignParentRight="true"
         android:textAlignment="center"
         android:text="Fecha"
+        android:layout_alignParentEnd="true"
         />
 
     <TextView
@@ -36,7 +37,9 @@
         android:textAlignment="center"
         android:layout_alignBottom="@+id/tvnombre"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+
+        />
 
 
 
