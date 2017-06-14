@@ -42,8 +42,6 @@ public class Archivo_Activity extends AppCompatActivity {
         txtTexto=(EditText)findViewById(R.id.txtTexto);
         txtTexto.setText(texto);
 
-
-
     }
 
 }
